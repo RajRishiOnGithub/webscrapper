@@ -3,8 +3,8 @@ import requests
 from openpyxl import Workbook
 
 
-#link='https://www.snapdeal.com/products/computers-webcams?sort=plrty'
-link = input()
+link='https://www.snapdeal.com/products/computers-webcams?sort=plrty'
+#link = input()
 resultset = requests.get(link)
 
 
